@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4DC34F51DB0002300DC407E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC34F41DB0002300DC407E /* AppDelegate.swift */; };
+		F4DC34F71DB0002300DC407E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC34F61DB0002300DC407E /* ViewController.swift */; };
+		F4DC34FA1DB0002300DC407E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DC34F81DB0002300DC407E /* Main.storyboard */; };
+		F4DC34FC1DB0002300DC407E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DC34FB1DB0002300DC407E /* Assets.xcassets */; };
+		F4DC34FF1DB0002300DC407E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DC34FD1DB0002300DC407E /* LaunchScreen.storyboard */; };
+		F4DC350A1DB0002300DC407E /* FunkyCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC35091DB0002300DC407E /* FunkyCalcTests.swift */; };
+		F4DC35151DB0002300DC407E /* FunkyCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC35141DB0002300DC407E /* FunkyCalcUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4DC35061DB0002300DC407E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DC34E91DB0002300DC407E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DC34F01DB0002300DC407E;
+			remoteInfo = FunkyCalc;
+		};
+		F4DC35111DB0002300DC407E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DC34E91DB0002300DC407E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DC34F01DB0002300DC407E;
+			remoteInfo = FunkyCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4DC34F11DB0002300DC407E /* FunkyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunkyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DC34F41DB0002300DC407E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4DC34F61DB0002300DC407E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4DC34F91DB0002300DC407E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4DC34FB1DB0002300DC407E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4DC34FE1DB0002300DC407E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4DC35001DB0002300DC407E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DC35051DB0002300DC407E /* FunkyCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunkyCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DC35091DB0002300DC407E /* FunkyCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkyCalcTests.swift; sourceTree = "<group>"; };
+		F4DC350B1DB0002300DC407E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DC35101DB0002300DC407E /* FunkyCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunkyCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DC35141DB0002300DC407E /* FunkyCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkyCalcUITests.swift; sourceTree = "<group>"; };
+		F4DC35161DB0002300DC407E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DC34EE1DB0002300DC407E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DC35021DB0002300DC407E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DC350D1DB0002300DC407E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4DC34E81DB0002300DC407E = {
+			isa = PBXGroup;
+			children = (
+				F4DC34F31DB0002300DC407E /* FunkyCalc */,
+				F4DC35081DB0002300DC407E /* FunkyCalcTests */,
+				F4DC35131DB0002300DC407E /* FunkyCalcUITests */,
+				F4DC34F21DB0002300DC407E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DC34F21DB0002300DC407E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DC34F11DB0002300DC407E /* FunkyCalc.app */,
+				F4DC35051DB0002300DC407E /* FunkyCalcTests.xctest */,
+				F4DC35101DB0002300DC407E /* FunkyCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DC34F31DB0002300DC407E /* FunkyCalc */ = {
+			isa = PBXGroup;
+			children = (
+				F4DC34F41DB0002300DC407E /* AppDelegate.swift */,
+				F4DC34F61DB0002300DC407E /* ViewController.swift */,
+				F4DC34F81DB0002300DC407E /* Main.storyboard */,
+				F4DC34FB1DB0002300DC407E /* Assets.xcassets */,
+				F4DC34FD1DB0002300DC407E /* LaunchScreen.storyboard */,
+				F4DC35001DB0002300DC407E /* Info.plist */,
+			);
+			path = FunkyCalc;
+			sourceTree = "<group>";
+		};
+		F4DC35081DB0002300DC407E /* FunkyCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DC35091DB0002300DC407E /* FunkyCalcTests.swift */,
+				F4DC350B1DB0002300DC407E /* Info.plist */,
+			);
+			path = FunkyCalcTests;
+			sourceTree = "<group>";
+		};
+		F4DC35131DB0002300DC407E /* FunkyCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DC35141DB0002300DC407E /* FunkyCalcUITests.swift */,
+				F4DC35161DB0002300DC407E /* Info.plist */,
+			);
+			path = FunkyCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DC34F01DB0002300DC407E /* FunkyCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DC35191DB0002300DC407E /* Build configuration list for PBXNativeTarget "FunkyCalc" */;
+			buildPhases = (
+				F4DC34ED1DB0002300DC407E /* Sources */,
+				F4DC34EE1DB0002300DC407E /* Frameworks */,
+				F4DC34EF1DB0002300DC407E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunkyCalc;
+			productName = FunkyCalc;
+			productReference = F4DC34F11DB0002300DC407E /* FunkyCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4DC35041DB0002300DC407E /* FunkyCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DC351C1DB0002300DC407E /* Build configuration list for PBXNativeTarget "FunkyCalcTests" */;
+			buildPhases = (
+				F4DC35011DB0002300DC407E /* Sources */,
+				F4DC35021DB0002300DC407E /* Frameworks */,
+				F4DC35031DB0002300DC407E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DC35071DB0002300DC407E /* PBXTargetDependency */,
+			);
+			name = FunkyCalcTests;
+			productName = FunkyCalcTests;
+			productReference = F4DC35051DB0002300DC407E /* FunkyCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4DC350F1DB0002300DC407E /* FunkyCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DC351F1DB0002300DC407E /* Build configuration list for PBXNativeTarget "FunkyCalcUITests" */;
+			buildPhases = (
+				F4DC350C1DB0002300DC407E /* Sources */,
+				F4DC350D1DB0002300DC407E /* Frameworks */,
+				F4DC350E1DB0002300DC407E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DC35121DB0002300DC407E /* PBXTargetDependency */,
+			);
+			name = FunkyCalcUITests;
+			productName = FunkyCalcUITests;
+			productReference = F4DC35101DB0002300DC407E /* FunkyCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DC34E91DB0002300DC407E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = notungood;
+				TargetAttributes = {
+					F4DC34F01DB0002300DC407E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KNYX5GL2V8;
+						ProvisioningStyle = Automatic;
+					};
+					F4DC35041DB0002300DC407E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KNYX5GL2V8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4DC34F01DB0002300DC407E;
+					};
+					F4DC350F1DB0002300DC407E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KNYX5GL2V8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4DC34F01DB0002300DC407E;
+					};
+				};
+			};
+			buildConfigurationList = F4DC34EC1DB0002300DC407E /* Build configuration list for PBXProject "FunkyCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4DC34E81DB0002300DC407E;
+			productRefGroup = F4DC34F21DB0002300DC407E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DC34F01DB0002300DC407E /* FunkyCalc */,
+				F4DC35041DB0002300DC407E /* FunkyCalcTests */,
+				F4DC350F1DB0002300DC407E /* FunkyCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DC34EF1DB0002300DC407E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DC34FF1DB0002300DC407E /* LaunchScreen.storyboard in Resources */,
+				F4DC34FC1DB0002300DC407E /* Assets.xcassets in Resources */,
+				F4DC34FA1DB0002300DC407E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DC35031DB0002300DC407E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DC350E1DB0002300DC407E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DC34ED1DB0002300DC407E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DC34F71DB0002300DC407E /* ViewController.swift in Sources */,
+				F4DC34F51DB0002300DC407E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DC35011DB0002300DC407E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DC350A1DB0002300DC407E /* FunkyCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DC350C1DB0002300DC407E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DC35151DB0002300DC407E /* FunkyCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4DC35071DB0002300DC407E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DC34F01DB0002300DC407E /* FunkyCalc */;
+			targetProxy = F4DC35061DB0002300DC407E /* PBXContainerItemProxy */;
+		};
+		F4DC35121DB0002300DC407E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DC34F01DB0002300DC407E /* FunkyCalc */;
+			targetProxy = F4DC35111DB0002300DC407E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4DC34F81DB0002300DC407E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DC34F91DB0002300DC407E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4DC34FD1DB0002300DC407E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DC34FE1DB0002300DC407E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4DC35171DB0002300DC407E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4DC35181DB0002300DC407E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4DC351A1DB0002300DC407E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KNYX5GL2V8;
+				INFOPLIST_FILE = FunkyCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = notungood.FunkyCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4DC351B1DB0002300DC407E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KNYX5GL2V8;
+				INFOPLIST_FILE = FunkyCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = notungood.FunkyCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F4DC351D1DB0002300DC407E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KNYX5GL2V8;
+				INFOPLIST_FILE = FunkyCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = notungood.FunkyCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunkyCalc.app/FunkyCalc";
+			};
+			name = Debug;
+		};
+		F4DC351E1DB0002300DC407E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KNYX5GL2V8;
+				INFOPLIST_FILE = FunkyCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = notungood.FunkyCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunkyCalc.app/FunkyCalc";
+			};
+			name = Release;
+		};
+		F4DC35201DB0002300DC407E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KNYX5GL2V8;
+				INFOPLIST_FILE = FunkyCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = notungood.FunkyCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FunkyCalc;
+			};
+			name = Debug;
+		};
+		F4DC35211DB0002300DC407E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KNYX5GL2V8;
+				INFOPLIST_FILE = FunkyCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = notungood.FunkyCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FunkyCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DC34EC1DB0002300DC407E /* Build configuration list for PBXProject "FunkyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DC35171DB0002300DC407E /* Debug */,
+				F4DC35181DB0002300DC407E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DC35191DB0002300DC407E /* Build configuration list for PBXNativeTarget "FunkyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DC351A1DB0002300DC407E /* Debug */,
+				F4DC351B1DB0002300DC407E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4DC351C1DB0002300DC407E /* Build configuration list for PBXNativeTarget "FunkyCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DC351D1DB0002300DC407E /* Debug */,
+				F4DC351E1DB0002300DC407E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4DC351F1DB0002300DC407E /* Build configuration list for PBXNativeTarget "FunkyCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DC35201DB0002300DC407E /* Debug */,
+				F4DC35211DB0002300DC407E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DC34E91DB0002300DC407E /* Project object */;
+}
