@@ -23,6 +23,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func ClickOperator (_ sender: UIButton) {
+        switch sender.tag {
+        case 50:
+            print("DEBUG add")
+        case 51:
+            print("DEBUG subtract")
+        case 52:
+            print("DEBUG multiply")
+        case 53:
+            print("DEBUG divide")
+        default:
+            return
+        }
         
     }
     
