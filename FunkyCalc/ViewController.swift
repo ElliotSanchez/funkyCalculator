@@ -10,67 +10,110 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
     // Variables for enums in StructsEnums
     var currentOperation :Operator = Operator.nothing
     var calcState :CalculationState = CalculationState.enteringNum
     
     // Results display elements
     @IBOutlet weak var resultLabel: UILabel!
-    var firstValue :String = " "
+    var priorValue :String = " "
+    
     
     // Button actions
     //// Numbers
     @IBAction func clickNumber(_ sender: UIButton) {
         updateDisplay(number :String(sender.tag))
+        calcState = CalculationState.enteringNum
     }
+    
     //// Operations
     @IBAction func clickOperator(_ sender: UIButton) {
         calcState = CalculationState.newNumStarted
         
-        if let num = resultLabel.text {
-            if num != " " {
-                firstValue = num
-                resultLabel.text = " "
-            }
-        }
-        
-        
-        
         switch sender.tag {
         case 50:
-            print("DEBUG add")
+            currentOperation = Operator.add
         case 51:
-            print("DEBUG subtract")
+            currentOperation = Operator.subtract
         case 52:
-            print("DEBUG multiply")
+            currentOperation = Operator.multiply
         case 53:
-            print("DEBUG divide")
+            currentOperation = Operator.divide
         default:
             return
         }
         
+        if let num :String = resultLabel.text {
+            if num != " " {
+                priorValue = num
+                resultLabel.text = " "
+            }
+        }
     }
+    
     //// Equals
     @IBAction func clickEquals(_ sender: UIButton) {
+        calculateSum()
         
     }
     
-    // Display actions and logic
-    func updateDisplay (number :String) {
+    // Display actions
+    func updateDisplay(number :String) {
         if calcState == CalculationState.newNumStarted {
             if let num = resultLabel.text {
                 if num != " " {
-                    firstValue = num
+                    priorValue = num
                 }
             }
             calcState = CalculationState.enteringNum
             resultLabel.text = number
         } else if calcState == CalculationState.enteringNum {
             resultLabel.text = resultLabel.text! + number
+        } else if calcState == CalculationState.calcComplete {
+            resultLabel.text = number
         }
     }
+    
+    // Calculation logic
+    func calculateSum() {
+        if priorValue == " " {
+            return
+        }
+        
+        var result = String()
+        
+        // Explicit check that both current and prior values are operable
+        if let currentValueDouble :Double = Double(resultLabel.text!) {
+            if let priorValueDouble :Double = Double(priorValue) {
+                
+                switch currentOperation {
+                case Operator.add:
+                    result = "\(priorValueDouble + currentValueDouble)"
+                case Operator.subtract:
+                    result = "\(priorValueDouble - currentValueDouble)"
+                case Operator.multiply:
+                    result = "\(priorValueDouble * currentValueDouble)"
+                case Operator.divide:
+                    result = "\(priorValueDouble / currentValueDouble)"
+                default:
+                    return
+                }
+                
+            } else {
+                return
+            }
+        } else {
+            return
+        }
+    
+        calcState = CalculationState.calcComplete
+        updateDisplay(number: result)
+    }
 
-    // No additional setup, so moved to bottom
+    
+    // No setup so moved to bottom
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -79,7 +122,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
 

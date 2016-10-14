@@ -19,4 +19,5 @@ enum Operator :String {
 enum CalculationState :String {
     case enteringNum = "enteringNum"
     case newNumStarted = "newNumStarted"
+    case calcComplete = "calcComplete"
 }
