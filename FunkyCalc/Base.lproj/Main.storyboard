@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3f5-V2-T4b">
-                                <frame key="frameInset" minX="52" minY="85" width="216" height="313"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3f5-V2-T4b">
+                                <frame key="frameInset" minX="52" minY="85" width="216" height="328"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FqO-GT-y6U">
@@ -30,7 +30,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillProportionally" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="hdi-me-YFg">
-                                        <frame key="frameInset" minY="40" width="216" height="273"/>
+                                        <frame key="frameInset" minY="55" width="216" height="273"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="PIp-Rc-eUQ">
                                                 <frame key="frameInset" width="216" height="54"/>
@@ -220,6 +220,9 @@
                                         <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="hdi-me-YFg" firstAttribute="top" secondItem="FqO-GT-y6U" secondAttribute="bottom" constant="15" id="IPu-9h-m1n"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
