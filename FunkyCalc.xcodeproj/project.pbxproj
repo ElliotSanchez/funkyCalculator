@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41A13B51DB13090002022F7 /* StructsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41A13B41DB13090002022F7 /* StructsEnums.swift */; };
 		F4DC34F51DB0002300DC407E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC34F41DB0002300DC407E /* AppDelegate.swift */; };
 		F4DC34F71DB0002300DC407E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC34F61DB0002300DC407E /* ViewController.swift */; };
 		F4DC34FA1DB0002300DC407E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DC34F81DB0002300DC407E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F41A13B41DB13090002022F7 /* StructsEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructsEnums.swift; sourceTree = "<group>"; };
 		F4DC34F11DB0002300DC407E /* FunkyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunkyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DC34F41DB0002300DC407E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DC34F61DB0002300DC407E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				F4DC34FB1DB0002300DC407E /* Assets.xcassets */,
 				F4DC34FD1DB0002300DC407E /* LaunchScreen.storyboard */,
 				F4DC35001DB0002300DC407E /* Info.plist */,
+				F41A13B41DB13090002022F7 /* StructsEnums.swift */,
 			);
 			path = FunkyCalc;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41A13B51DB13090002022F7 /* StructsEnums.swift in Sources */,
 				F4DC34F71DB0002300DC407E /* ViewController.swift in Sources */,
 				F4DC34F51DB0002300DC407E /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				F4DC351B1DB0002300DC407E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4DC351C1DB0002300DC407E /* Build configuration list for PBXNativeTarget "FunkyCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				F4DC351E1DB0002300DC407E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4DC351F1DB0002300DC407E /* Build configuration list for PBXNativeTarget "FunkyCalcUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				F4DC35211DB0002300DC407E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

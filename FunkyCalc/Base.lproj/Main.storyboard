@@ -37,7 +37,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="one"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0va-6J-wPa"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rgE-Xi-PsJ"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vy1-OX-4HH">
@@ -47,7 +47,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="two"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SfK-gD-SXE"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FKL-X7-rSK"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYh-9j-VFx">
@@ -57,7 +57,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="three"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kps-zB-dBc"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XAI-OS-Tp3"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="50" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPx-ld-yG7">
@@ -67,7 +67,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="add"/>
                                                         <connections>
-                                                            <action selector="ClickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LA3-gP-QAg"/>
+                                                            <action selector="clickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2EX-gC-sMU"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -81,7 +81,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="four"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wvG-cQ-gmc"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iNJ-ia-0b4"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxx-C5-kzw">
@@ -91,7 +91,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="five"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cIN-uf-GZw"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BjT-7S-G1h"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDM-HS-DW3">
@@ -101,7 +101,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="six"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="olk-ml-t8X"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9gJ-TF-MJf"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="51" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWm-2j-hhv">
@@ -111,7 +111,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="minus"/>
                                                         <connections>
-                                                            <action selector="ClickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i6T-lG-DSj"/>
+                                                            <action selector="clickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xeW-VG-5Hw"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -125,7 +125,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="seven"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UXP-Ky-EO5"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8GM-UI-BYq"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVW-3P-t8q">
@@ -135,7 +135,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="eight"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Fl-QS-1Qu"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wNA-ro-8hK"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnz-nb-psY">
@@ -145,7 +145,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="nine"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CzV-Lt-aU2"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vcu-N8-0f1"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="52" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrJ-4o-iw3">
@@ -155,7 +155,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="times"/>
                                                         <connections>
-                                                            <action selector="ClickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jvI-VL-IOO"/>
+                                                            <action selector="clickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dFy-BB-c5E"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -169,7 +169,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="zero"/>
                                                         <connections>
-                                                            <action selector="ClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nvm-EH-Axd"/>
+                                                            <action selector="clickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IzQ-VH-X1h"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oat-8D-Kuq">
@@ -178,7 +178,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="equals"/>
                                                         <connections>
-                                                            <action selector="ClickEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="epc-x6-EAo"/>
+                                                            <action selector="clickEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qhm-mi-LyN"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="53" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1b3-Rk-TQm">
@@ -188,7 +188,7 @@
                                                         </constraints>
                                                         <state key="normal" backgroundImage="divide"/>
                                                         <connections>
-                                                            <action selector="ClickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c8p-vC-aHu"/>
+                                                            <action selector="clickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qcf-5K-MHr"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>

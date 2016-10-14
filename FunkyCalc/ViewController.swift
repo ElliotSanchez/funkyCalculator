@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Variables for enums in StructsEnums
+    var currentOperation :Operator = Operator.nothing
+    var calcState :CalculationState = CalculationState.enteringNum
+    
+    // Variables for calculation logic
+    var firstValue = String()
+    
+    
     @IBOutlet weak var resultLabel: UILabel!
     
     override func viewDidLoad() {
@@ -18,11 +26,12 @@ class ViewController: UIViewController {
     }
 
     // Button Actions
-    @IBAction func ClickNumber (_ sender: UIButton) {
+    @IBAction func clickNumber (_ sender: UIButton) {
+        
         
     }
     
-    @IBAction func ClickOperator (_ sender: UIButton) {
+    @IBAction func clickOperator (_ sender: UIButton) {
         switch sender.tag {
         case 50:
             print("DEBUG add")
@@ -38,11 +47,11 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func ClickEquals (_ sender: UIButton) {
+    @IBAction func clickEquals (_ sender: UIButton) {
         
     }
     
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
