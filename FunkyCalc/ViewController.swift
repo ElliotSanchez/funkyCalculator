@@ -30,8 +30,11 @@ class ViewController: UIViewController {
         if let num = resultLabel.text {
             if num != " " {
                 firstValue = num
+                resultLabel.text = " "
             }
         }
+        
+        
         
         switch sender.tag {
         case 50:
