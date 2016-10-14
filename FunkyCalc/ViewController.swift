@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     var calcState :CalculationState = CalculationState.enteringNum
     
     // Variables for calculation logic
-    var firstValue :String = ""
+    var firstValue :String = " "
     
     @IBOutlet weak var resultLabel: UILabel!
     
@@ -30,7 +30,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickOperator(_ sender: UIButton) {
-        //calcState = CalculationState.newNumStarted
+        calcState = CalculationState.newNumStarted
+        
+        if let num = resultLabel.text {
+            if num != " " {
+                firstValue = num
+            }
+        }
         
         switch sender.tag {
         case 50:
@@ -55,7 +61,7 @@ class ViewController: UIViewController {
     func updateDisplay (number :String) {
         if calcState == CalculationState.newNumStarted {
             if let num = resultLabel.text {
-                if num != "" {
+                if num != " " {
                     firstValue = num
                 }
             }
