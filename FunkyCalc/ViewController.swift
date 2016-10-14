@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     // Variables for enums in StructsEnums
     var currentOperation :Operator = Operator.nothing
-    var calcState :CalculationState = CalculationState.enteringNum
+    var calcState :CalculationState = CalculationState.calcComplete
     
     // Results display elements
     @IBOutlet weak var resultLabel: UILabel!
@@ -56,7 +56,6 @@ class ViewController: UIViewController {
     //// Equals
     @IBAction func clickEquals(_ sender: UIButton) {
         calculateSum()
-        
     }
     
     // Display actions
@@ -82,28 +81,22 @@ class ViewController: UIViewController {
             return
         }
         
-        var result = String()
+        var result :String = " "
+        let currentValue :String = resultLabel.text!
         
-        // Explicit check that both current and prior values are operable
-        if let currentValueDouble :Double = Double(resultLabel.text!) {
-            if let priorValueDouble :Double = Double(priorValue) {
+        print("ELLIOTDBG \(resultLabel.text)")
+        print("ELLIOTDBG \(Double(resultLabel.text!))")
+        print("ELLIOTDBG \(Double(priorValue))")
+        print("ELLIOTDBG \(Double(currentValue))")
                 
-                switch currentOperation {
-                case Operator.add:
-                    result = "\(priorValueDouble + currentValueDouble)"
-                case Operator.subtract:
-                    result = "\(priorValueDouble - currentValueDouble)"
-                case Operator.multiply:
-                    result = "\(priorValueDouble * currentValueDouble)"
-                case Operator.divide:
-                    result = "\(priorValueDouble / currentValueDouble)"
-                default:
-                    return
-                }
-                
-            } else {
-                return
-            }
+        if currentOperation == Operator.add {
+            result = "\(Double(priorValue)! + Double(currentValue)!)"
+        } else if currentOperation == Operator.subtract {
+            result = "\(Double(priorValue)! - Double(currentValue)!)"
+        } else if currentOperation == Operator.multiply {
+            result = "\(Double(priorValue)! * Double(currentValue)!)"
+        } else if currentOperation == Operator.divide {
+            result = "\(Double(priorValue)! / Double(currentValue)!)"
         } else {
             return
         }
