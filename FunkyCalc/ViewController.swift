@@ -14,21 +14,16 @@ class ViewController: UIViewController {
     var currentOperation :Operator = Operator.nothing
     var calcState :CalculationState = CalculationState.enteringNum
     
-    // Variables for calculation logic
+    // Results display elements
+    @IBOutlet weak var resultLabel: UILabel!
     var firstValue :String = " "
     
-    @IBOutlet weak var resultLabel: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
     // Button actions
+    //// Numbers
     @IBAction func clickNumber(_ sender: UIButton) {
         updateDisplay(number :String(sender.tag))
     }
-    
+    //// Operations
     @IBAction func clickOperator(_ sender: UIButton) {
         calcState = CalculationState.newNumStarted
         
@@ -52,7 +47,7 @@ class ViewController: UIViewController {
         }
         
     }
-    
+    //// Equals
     @IBAction func clickEquals(_ sender: UIButton) {
         
     }
@@ -72,6 +67,11 @@ class ViewController: UIViewController {
         }
     }
 
+    // No additional setup, so moved to bottom
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
