@@ -26,31 +26,38 @@ class ViewController: UIViewController {
     @IBAction func clickNumber(_ sender: UIButton) {
         updateDisplay(number :String(sender.tag))
         calcState = CalculationState.enteringNum
+        print(calcState)
     }
     
     //// Operations
     @IBAction func clickOperator(_ sender: UIButton) {
-        calcState = CalculationState.newNumStarted
+        
         
         switch sender.tag {
         case 50:
             currentOperation = Operator.add
+            resultLabel.text = "+"
         case 51:
             currentOperation = Operator.subtract
+            resultLabel.text = "-"
         case 52:
             currentOperation = Operator.multiply
+            resultLabel.text = "x"
         case 53:
             currentOperation = Operator.divide
+            resultLabel.text = "⁒"
         default:
             return
         }
         
         if let num :String = resultLabel.text {
-            if num != " " {
+            if (num != " ") && (num != "+") && (num != "-") && (num !=  "x") && (num != "⁒") {
                 priorValue = num
-                resultLabel.text = " "
             }
         }
+        
+        calcState = CalculationState.newNumStarted
+        print(calcState)
     }
     
     //// Equals
@@ -62,11 +69,12 @@ class ViewController: UIViewController {
     func updateDisplay(number :String) {
         if calcState == CalculationState.newNumStarted {
             if let num = resultLabel.text {
-                if num != " " {
+                if (num != " ") && (num != "+") && (num != "-") && (num !=  "x") && (num != "⁒") {
                     priorValue = num
                 }
             }
             calcState = CalculationState.enteringNum
+            print(calcState)
             resultLabel.text = number
         } else if calcState == CalculationState.enteringNum {
             resultLabel.text = resultLabel.text! + number
@@ -102,6 +110,7 @@ class ViewController: UIViewController {
         }
     
         calcState = CalculationState.calcComplete
+        print(calcState)
         updateDisplay(number: result)
     }
 
@@ -109,6 +118,7 @@ class ViewController: UIViewController {
     // No setup so moved to bottom
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(calcState)
     }
     
     override func didReceiveMemoryWarning() {
